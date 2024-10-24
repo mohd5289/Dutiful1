@@ -5,14 +5,14 @@ import React from "react";
 const Page = () => {
   return (
     <div className=" flex flex-col space-y-4 font-circular text-black justify-center">
-      <div className="flex flex-col space-y-2 text-start w-[400px] self-center">
+      <div className="flex flex-col space-y-2 md:text-start text-center w-[400px] self-center">
         <p className="text-sm text-menu-color">Jump right back in</p>
         <h2 className="text-3xl font-recoleta font-bold">Login</h2>
       </div>
 
       <div className="flex flex-col items-center self-center gap-4 mb-6">
         <div className="flex flex-col ">
-          <label htmlFor="email" className="text-sm text-[#603F8B] self-start">
+          <label htmlFor="email" className="text-sm text-[#603F8B] self-start ">
             Email
           </label>
           <input

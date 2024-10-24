@@ -19,7 +19,7 @@ const Page = () => {
                 // value={value}
                 // onChange={(e) => handleInputChange(index, e.target.value)}
                 // ref={(ref) => (inputRefs.current[index] = ref)}
-                className="h-20 w-20 rounded-md border-[1px] border-otp-box font-light text-otp-box border-[#B6B6E5]"
+                className="md:h-20 md:w-20 h-12 w-12 rounded-md border-[1px] border-otp-box font-light text-otp-box border-[#B6B6E5]"
                 style={{
                   fontSize: "24px",
                   textAlign: "center",

@@ -155,7 +155,7 @@ export default function Home() {
               id=""
               className=" border-[#603F8B] border-4"
             />
-            <span className="text-[#696F79] font-medium text-xs  md:text:sm">
+            <span className="text-[#696F79] font-medium text-xs md:text:sm">
               I agree to Dutiful&apos;s{" "}
               <span className="underline text-[#603F8B]">
                 terms and conditions

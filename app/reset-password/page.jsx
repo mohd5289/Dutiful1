@@ -5,7 +5,7 @@ import React from "react";
 const Page = () => {
   return (
     <div className=" flex flex-col space-y-4 font-circular text-black justify-center">
-      <div className="flex flex-col space-y-2 text-start w-[400px] self-center">
+      <div className="flex flex-col space-y-2 md:text-start text-center  w-[400px] self-center">
         <h2 className="text-3xl font-recoleta font-bold">Reset password</h2>
         <p className="text-sm text-menu-color">Set your new password</p>
       </div>
@@ -19,7 +19,7 @@ const Page = () => {
             <input
               type="text"
               id="email"
-              className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] "
+              className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[250px] lg:w-[400px] "
             />
             <Image
               src="/show.svg" // Replace with your image path
@@ -43,7 +43,7 @@ const Page = () => {
             <input
               type="text"
               id="password"
-              className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] "
+              className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[250px] lg:w-[400px] "
             />
             <Image
               src="/show.svg" // Replace with your image path
@@ -56,7 +56,7 @@ const Page = () => {
         </div>
 
         <div className="flex flex-col gap-2 mb-20">
-          <button className="bg-[#603F8B]  border-2 text-white border-solid  font-semibold py-4 px-4 rounded-md min-w-[400px]">
+          <button className="bg-[#603F8B]  border-2 text-white border-solid  font-semibold py-4 px-4 rounded-md w-[250px] lg:w-[400px]">
             Reset password
           </button>
           <p className="text-[#696F79] self-center text-sm pt-4">
