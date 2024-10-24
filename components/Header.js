@@ -73,15 +73,12 @@ const Header = () => {
                 </a>
               </Link>
             </div>
-            <button className=" bg-custom-orange text-white rounded-md py-3 px-5 md:py-3 md:px-6 text-sm font-semibold">
-              Get started
-            </button>
           </div>
-          <div className=" hidden md:flex gap-2  font-circular ">
-            <button className="bg-transparent text-[#1E1E4B] hover:text-blue-700 font-semibold py-2 px-4 min-w-32">
+          <div className="flex gap-2  font-circular ">
+            <button className="bg-transparent text-[#1E1E4B] hover:text-blue-700 font-semibold py-2 px-4 min-w-16">
               Login
             </button>
-            <button className="bg-transparent text-[#603F8B] border-2 border-[#603F8B] border-solid hover:bg-[#603F8B] hover:text-white font-semibold py-2 px-4 rounded-md min-w-32">
+            <button className="bg-transparent text-[#603F8B] border-2 border-[#603F8B] border-solid hover:bg-[#603F8B] hover:text-white font-semibold py-2 px-4 rounded-md min-w-16">
               Sign Up
             </button>
           </div>
