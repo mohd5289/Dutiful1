@@ -4,18 +4,18 @@ import React from "react";
 const Page = () => {
   return (
     <div className="flex flex-col space-y-8">
-      <div className=" flex flex-col space-y-2 justify-center items-center w-full h-[268px] font-recoleta ">
+      <div className=" flex flex-col space-y-2 justify-center items-center w-full h-[268px] font-recoleta mx-2 ">
         <h2 className="text-4xl font-bold  text-[#1E1E4B]">
           Plans to Suit Your Business Budget
         </h2>
-        <p className="max-w-[43%] text-[#656565] text-center">
+        <p className="max-w-[43%] text-[#656565] text-center ">
           Our fully organized plans deliver valuable content that showcases your
           services and skills, drives Lead, covers all features, and gives
           customers a clear idea to be able to choose your services.
         </p>
       </div>
       <div className="flex flex-col bg-[#FCFAFF]">
-        <div className="flex justify-around bg-[#FCFAFF] p-6 ">
+        <div className="flex flex-wrap justify-around bg-[#FCFAFF] p-6">
           <div className="flex flex-col gap-2 rounded-md min-h-[800px] w-[450px] bg-white py-8 px-4">
             <p className="font-circular">Basic</p>
             <h2 className="text-4xl font-bold font-recoleta">Free</h2>
@@ -266,7 +266,7 @@ const Page = () => {
 
         <h2 className="text-3xl font-bold mx-12">Features Overview</h2>
         <div className=" flex flex-col space-y-2 mb-20">
-          <div className="flex justify-between px-12 font-circular">
+          <div className="flex flex-wrap justify-between px-12 font-circular overflow-x-auto">
             <div className="flex items-end text-xl">Features & Services</div>
             <div className="flex flex-col justify-between w-[250px] h-[100px]">
               <h2 className="text-lg font-bold">Basic</h2>
@@ -275,20 +275,20 @@ const Page = () => {
               </button>
             </div>
             <div className="flex flex-col justify-between w-[250px] h-[100px]">
-              <h2 className="text-lg font-bold">Basic</h2>
+              <h2 className="text-lg font-bold">Standard</h2>
               <button className="bg-[#603F8B]  border-2 text-white border-solid  font-semibold py-4 px-4 rounded-md w-full">
                 Get started
               </button>
             </div>
             <div className="flex flex-col justify-between w-[250px] h-[100px]">
-              <h2 className="text-lg font-bold">Basic</h2>
+              <h2 className="text-lg font-bold">Premium</h2>
               <button className="bg-[#603F8B]  border-2 text-white border-solid  font-semibold py-4 px-4 rounded-md w-full">
                 Get started
               </button>
             </div>
           </div>
         </div>
-        <table className="w-full border-collapse font-circular mx-2 mb-10">
+        <table className="w-full border-collapse font-circular mx-2 mb-10 overflow-hidden">
           <tbody>
             <tr className="flex  bg-white ">
               <td className="p-4 pl-20 w-1/4 text-[#656565]">
