@@ -18,7 +18,7 @@ export default function Home() {
       </div>
       <div className="flex gap-5 justify-center w-full mx-2">
         <button
-          className={`flex gap-2 bg-transparent text-[#603F8B] border-2 border-[#603F8B] border-solid  font-semibold py-4 px-4 rounded-md min-w-16 relative ${
+          className={`flex gap-2 bg-transparent text-[#603F8B] border-2 border-[#603F8B] border-solid  font-semibold py-4 px-4 rounded-md min-w-16 md relative ${
             selected === "service"
               ? "border-menu-color text-menu-color"
               : "text-[#603F8B] border-[#603F8B]"
@@ -78,7 +78,7 @@ export default function Home() {
           <input
             type="text"
             id="fullName"
-            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] lg:w-[400px]  md:w-[250px] sm:w-[150px] "
+            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[250px] lg:w-[400px] "
           />
         </div>
         <div className="flex flex-col ">
@@ -88,7 +88,7 @@ export default function Home() {
           <input
             type="text"
             id="email"
-            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] lg:w-[400px]  md:w-[250px] sm:w-[150px]"
+            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[250px] lg:w-[400px]"
           />
         </div>
         <div className="flex flex-col ">
@@ -101,7 +101,7 @@ export default function Home() {
           <input
             type="text"
             id="phoneNumber"
-            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] lg:w-[400px]  md:w-[250px] sm:w-[150px]"
+            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[250px] lg:w-[400px]"
           />
         </div>
         <div className="flex flex-col ">
@@ -116,7 +116,7 @@ export default function Home() {
             <input
               type="text"
               id="password"
-              className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] md:w-[250px]"
+              className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[250px] lg:w-[400px]"
             />
             <Image
               src="/show.svg" // Replace with your image path
@@ -138,7 +138,7 @@ export default function Home() {
             <input
               type="text"
               id="confirmPassword"
-              className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] "
+              className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[250px] lg:w-[400px]"
             />
             <Image
               src="/show.svg" // Replace with your image path
@@ -155,7 +155,7 @@ export default function Home() {
               id=""
               className=" border-[#603F8B] border-4"
             />
-            <span className="text-[#696F79] font-medium text-sm">
+            <span className="text-[#696F79] font-medium text-xs  md:text:sm">
               I agree to Dutiful&apos;s{" "}
               <span className="underline text-[#603F8B]">
                 terms and conditions
@@ -165,7 +165,7 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col gap-2 mb-20">
-          <button className="bg-[#603F8B]  border-2 text-white border-solid  font-semibold py-4 px-4 rounded-md min-w-[400px]">
+          <button className="bg-[#603F8B]  border-2 text-white border-solid  font-semibold py-4 px-4 rounded-md w-[250px] lg:w-[400px]">
             Sign Up
           </button>
           <p className="text-[#696F79] self-center text-sm">
