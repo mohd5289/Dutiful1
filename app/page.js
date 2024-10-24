@@ -16,7 +16,7 @@ export default function Home() {
         <p className="text-sm text-menu-color">Sign up for free!</p>
         <h2 className="text-3xl font-recoleta font-bold">Get started</h2>
       </div>
-      <div className="flex gap-5 justify-center w-full">
+      <div className="flex gap-5 justify-center w-full mx-2">
         <button
           className={`flex gap-2 bg-transparent text-[#603F8B] border-2 border-[#603F8B] border-solid  font-semibold py-4 px-4 rounded-md min-w-16 relative ${
             selected === "service"
@@ -67,7 +67,7 @@ export default function Home() {
           Service Provider
         </button>
       </div>
-      <div className="flex flex-col items-center self-center gap-4 mb-6">
+      <div className="flex flex-col items-center self-center gap-4 mb-6 mx-4">
         <div className="flex flex-col ">
           <label
             htmlFor="fullName"
