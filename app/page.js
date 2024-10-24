@@ -78,7 +78,7 @@ export default function Home() {
           <input
             type="text"
             id="fullName"
-            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] "
+            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] md:w-[250px] "
           />
         </div>
         <div className="flex flex-col ">
@@ -88,7 +88,7 @@ export default function Home() {
           <input
             type="text"
             id="email"
-            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] "
+            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] md:w-[250px] "
           />
         </div>
         <div className="flex flex-col ">
@@ -101,7 +101,7 @@ export default function Home() {
           <input
             type="text"
             id="phoneNumber"
-            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] "
+            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] md:w-[250px]"
           />
         </div>
         <div className="flex flex-col ">
@@ -116,7 +116,7 @@ export default function Home() {
             <input
               type="text"
               id="password"
-              className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] "
+              className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] md:w-[250px]"
             />
             <Image
               src="/show.svg" // Replace with your image path
