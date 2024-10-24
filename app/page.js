@@ -18,7 +18,7 @@ export default function Home() {
       </div>
       <div className="flex gap-5 justify-center w-full mx-2">
         <button
-          className={`flex gap-2 bg-transparent text-[#603F8B] border-2 border-[#603F8B] border-solid  font-semibold py-4 px-4 rounded-md min-w-16 md relative ${
+          className={`flex gap-2 bg-transparent text-[#603F8B] border-2 border-[#603F8B] border-solid  font-semibold py-4 px-4 rounded-md min-w-16 relative text-xs md:text-base ${
             selected === "service"
               ? "border-menu-color text-menu-color"
               : "text-[#603F8B] border-[#603F8B]"
@@ -43,7 +43,7 @@ export default function Home() {
           Regular user
         </button>
         <button
-          className={`flex gap-2 bg-transparent  border-2  border-solid  font-semibold py-4 px-4 rounded-md min-w-16 relative ${
+          className={`flex gap-2 bg-transparent  border-2  border-solid  font-semibold py-4 px-4 rounded-md min-w-16 relative text-xs md:text-base ${
             selected === "service"
               ? "text-[#603F8B] border-[#603F8B]"
               : "border-menu-color text-menu-color"
