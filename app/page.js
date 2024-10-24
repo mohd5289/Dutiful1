@@ -18,7 +18,7 @@ export default function Home() {
       </div>
       <div className="flex gap-5 justify-center w-full">
         <button
-          className={`flex gap-2 bg-transparent text-[#603F8B] border-2 border-[#603F8B] border-solid  font-semibold py-4 px-4 rounded-md min-w-32 relative ${
+          className={`flex gap-2 bg-transparent text-[#603F8B] border-2 border-[#603F8B] border-solid  font-semibold py-4 px-4 rounded-md min-w-16 relative ${
             selected === "service"
               ? "border-menu-color text-menu-color"
               : "text-[#603F8B] border-[#603F8B]"
@@ -43,7 +43,7 @@ export default function Home() {
           Regular user
         </button>
         <button
-          className={`flex gap-2 bg-transparent  border-2  border-solid  font-semibold py-4 px-4 rounded-md min-w-32 relative ${
+          className={`flex gap-2 bg-transparent  border-2  border-solid  font-semibold py-4 px-4 rounded-md min-w-16 relative ${
             selected === "service"
               ? "text-[#603F8B] border-[#603F8B]"
               : "border-menu-color text-menu-color"
@@ -78,7 +78,7 @@ export default function Home() {
           <input
             type="text"
             id="fullName"
-            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] md:w-[250px] "
+            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] lg:w-[400px]  md:w-[250px] sm:w-[150px] "
           />
         </div>
         <div className="flex flex-col ">
@@ -88,7 +88,7 @@ export default function Home() {
           <input
             type="text"
             id="email"
-            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] md:w-[250px] "
+            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] lg:w-[400px]  md:w-[250px] sm:w-[150px]"
           />
         </div>
         <div className="flex flex-col ">
@@ -101,7 +101,7 @@ export default function Home() {
           <input
             type="text"
             id="phoneNumber"
-            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] md:w-[250px]"
+            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] lg:w-[400px]  md:w-[250px] sm:w-[150px]"
           />
         </div>
         <div className="flex flex-col ">
