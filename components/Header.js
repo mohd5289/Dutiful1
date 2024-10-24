@@ -113,7 +113,7 @@ const Header = () => {
             }`}
             onClick={() => handleTabClick("home")}
           >
-            Home
+            Business Directory
           </a>
         </Link>
         <Link href="/pricing" legacyBehavior>
@@ -123,7 +123,7 @@ const Header = () => {
             }`}
             onClick={() => handleTabClick("pricing")}
           >
-            Pricing
+            Features
           </a>
         </Link>
         <Link href="/AboutUs" legacyBehavior>
@@ -133,7 +133,7 @@ const Header = () => {
             }`}
             onClick={() => handleTabClick("aboutus")}
           >
-            About Us
+            Pricing
           </a>
         </Link>
 
@@ -144,7 +144,7 @@ const Header = () => {
             }`}
             onClick={() => handleTabClick("contact")}
           >
-            Contact
+            Blog
           </a>
         </Link>
       </div>
