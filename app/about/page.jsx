@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const page = () => {
+const Page = () => {
   return (
     <div className="flex flex-col  ">
       <Image
@@ -139,4 +139,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
-const page = () => {
+const Page = () => {
   const [otpValues, setOtpValues] = useState(["", "", "", ""]);
   return (
     <div className=" flex flex-col space-y-4 font-circular text-black justify-center">
@@ -52,4 +52,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
