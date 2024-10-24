@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const page = () => {
+const Page = () => {
   return (
     <div className=" flex flex-col space-y-4 font-circular text-black justify-center">
       <div className="flex flex-col space-y-2 text-start w-[400px] self-center">
@@ -57,7 +57,7 @@ const page = () => {
           </button>
           <p className="text-[#696F79] self-center text-sm">
             {" "}
-            Don't have an account?{" "}
+            Don&apos;t have an account?{" "}
             <Link href="/">
               <span className="text-[#603F8B]">Sign up</span>
             </Link>
@@ -68,4 +68,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

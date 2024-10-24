@@ -41,7 +41,7 @@ const Page = () => {
           </Link>
           <p className="text-[#696F79] self-center text-sm">
             {" "}
-            Did't get a code?{" "}
+            Did&apos;t get a code?{" "}
             <Link href="/">
               <span className="text-[#603F8B]">Resend</span>
             </Link>
