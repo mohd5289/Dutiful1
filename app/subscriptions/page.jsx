@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const page = () => {
+const Page = () => {
   return (
     <div className="flex flex-col space-y-8">
       <div className=" flex flex-col space-y-2 justify-center items-center w-full h-[268px] font-recoleta ">
@@ -288,127 +288,226 @@ const page = () => {
             </div>
           </div>
         </div>
-        <table className="w-full border-collapse">
+        <table className="w-full border-collapse font-circular mx-2 mb-10">
           <tbody>
-            <tr className="bg-white ">
-              <td className=" p-4  ">Row 1, Cell 1</td>
-              <td className="  p-4 ">Row 1, Cell 2</td>
-              <td className="  p-4">Row 1, Cell 3</td>
-              <td className="  p-4">Row 1, Cell 4</td>
+            <tr className="flex  bg-white ">
+              <td className="p-4 pl-20 w-1/4 text-[#656565]">
+                Access to dashboard
+              </td>
+              <td className="p-4 pl-24 w-1/4 text-[#656565]">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-36 p-4 w-1/4">
+                {" "}
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-48 p-4 w-1/4 ">
+                {" "}
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
             </tr>
-            <tr className="bg-[#FCFAFF]">
-              <td className="  p-4 ">Row 2, Cell 1</td>
-              <td className="  p-4">Row 2, Cell 2</td>
-              <td className="  p-4">Row 2, Cell 3</td>
-              <td className="  p-4">Row 2, Cell 4</td>
+            <tr className="flex  bg-[#FCFAFF] ">
+              <td className="p-4 pl-20 w-1/4 text-[#656565]">
+                No. of business listings
+              </td>
+              <td className="p-4 pl-24 w-1/4">2 businesses</td>
+              <td className="pl-36 p-4 w-1/4">6 businesses</td>
+              <td className="pl-48 p-4 w-1/4 ">10 businesses</td>
             </tr>
-            <tr className="bg-white">
-              <td className="  p-4 ">Row 3, Cell 1</td>
-              <td className="  p-4">Row 3, Cell 2</td>
-              <td className="  p-4">Row 3, Cell 3</td>
-              <td className="  p-4">Row 3, Cell 4</td>
+            <tr className="flex  bg-white ">
+              <td className="p-4 pl-20 w-1/4 text-[#656565]">RNo. of Images</td>
+              <td className="p-4 pl-24 w-1/4"> 2</td>
+              <td className="pl-36 p-4 w-1/4">6</td>
+              <td className="pl-48 p-4 w-1/4 ">10</td>
             </tr>
-            <tr className="bg-[#FCFAFF]">
-              <td className="  p-4 ">Row 4, Cell 1</td>
-              <td className="  p-4">Row 4, Cell 2</td>
-              <td className="  p-4">Row 4, Cell 3</td>
-              <td className="  p-4">Row 4, Cell 4</td>
+            <tr className="flex  bg-[#FCFAFF] ">
+              <td className="p-4 pl-20 w-1/4 text-[#656565]">Keywords</td>
+              <td className="p-4 pl-24 w-1/4">2</td>
+              <td className="pl-36 p-4 w-1/4">4</td>
+              <td className="pl-48 p-4 w-1/4 ">6</td>
             </tr>
-            <tr className="bg-white">
-              <td className="  p-4 ">Row 3, Cell 1</td>
-              <td className="  p-4">Row 3, Cell 2</td>
-              <td className="  p-4">Row 3, Cell 3</td>
-              <td className="  p-4">Row 3, Cell 4</td>
+            <tr className="flex  bg-white ">
+              <td className="p-4 pl-20 w-1/4 text-[#656565]">
+                Display service hours & prices
+              </td>
+              <td className="p-4 pl-24 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-36 p-4 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-48 p-4 w-1/4 ">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
             </tr>
-            <tr className="bg-[#FCFAFF]">
-              <td className="  p-4 ">Row 4, Cell 1</td>
-              <td className="  p-4">Row 4, Cell 2</td>
-              <td className="  p-4">Row 4, Cell 3</td>
-              <td className="  p-4">Row 4, Cell 4</td>
+            <tr className="flex  bg-[#FCFAFF] ">
+              <td className="p-4 pl-20 w-1/4 text-[#656565]">
+                Display address, email & contact
+              </td>
+              <td className="p-4 pl-24 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-36 p-4 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-48 p-4 w-1/4 ">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
             </tr>
-            <tr className="bg-white">
-              <td className="  p-4 ">Row 3, Cell 1</td>
-              <td className="  p-4">Row 3, Cell 2</td>
-              <td className="  p-4">Row 3, Cell 3</td>
-              <td className="  p-4">Row 3, Cell 4</td>
+            <tr className="flex  bg-white ">
+              <td className="p-4 pl-20 w-1/4 text-[#656565]">Instant chat</td>
+              <td className="p-4 pl-24 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-36 p-4 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-48 p-4 w-1/4 ">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
             </tr>
-            <tr className="bg-[#FCFAFF]">
-              <td className="  p-4 ">Row 4, Cell 1</td>
-              <td className="  p-4">Row 4, Cell 2</td>
-              <td className="  p-4">Row 4, Cell 3</td>
-              <td className="  p-4">Row 4, Cell 4</td>
+            <tr className="flex  bg-[#FCFAFF] ">
+              <td className="p-4 pl-20 w-1/4 text-[#656565]">
+                Reviews & ratings
+              </td>
+              <td className="p-4 pl-24 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-36 p-4 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-48 p-4 w-1/4 ">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
             </tr>
-            <tr className="bg-white">
-              <td className="  p-4 ">Row 3, Cell 1</td>
-              <td className="  p-4">Row 3, Cell 2</td>
-              <td className="  p-4">Row 3, Cell 3</td>
-              <td className="  p-4">Row 3, Cell 4</td>
+            <tr className="flex  bg-white ">
+              <td className="p-4 pl-20 w-1/4 text-[#656565]">
+                Profile visibility
+              </td>
+              <td className="p-4 pl-24 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-36 p-4 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-48 p-4 w-1/4 ">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
             </tr>
-            <tr className="bg-[#FCFAFF]">
-              <td className="  p-4 ">Row 4, Cell 1</td>
-              <td className="  p-4">Row 4, Cell 2</td>
-              <td className="  p-4">Row 4, Cell 3</td>
-              <td className="  p-4">Row 4, Cell 4</td>
+            <tr className="flex  bg-[#FCFAFF] ">
+              <td className="p-4 pl-20 w-1/4 text-[#656565]">
+                Instant notifications
+              </td>
+              <td className="p-4 pl-24 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-36 p-4 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-48 p-4 w-1/4 ">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
             </tr>
-            <tr className="bg-white">
-              <td className="  p-4 ">Row 3, Cell 1</td>
-              <td className="  p-4">Row 3, Cell 2</td>
-              <td className="  p-4">Row 3, Cell 3</td>
-              <td className="  p-4">Row 3, Cell 4</td>
+            <tr className="flex  bg-white ">
+              <td className="p-4 pl-20 w-1/4 text-[#656565]">
+                Display website & social network
+              </td>
+              <td className="p-4 pl-24 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-36 p-4 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-48 p-4 w-1/4 ">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
             </tr>
-            <tr className="bg-[#FCFAFF]">
-              <td className="  p-4 ">Row 4, Cell 1</td>
-              <td className="  p-4">Row 4, Cell 2</td>
-              <td className="  p-4">Row 4, Cell 3</td>
-              <td className="  p-4">Row 4, Cell 4</td>
+            <tr className="flex  bg-[#FCFAFF] ">
+              <td className="p-4 pl-20 w-1/4 text-[#656565]">Quotes</td>
+              <td className="p-4 pl-24 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-36 p-4 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-48 p-4 w-1/4 ">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
             </tr>
-            <tr className="bg-white">
-              <td className="  p-4 ">Row 3, Cell 1</td>
-              <td className="  p-4">Row 3, Cell 2</td>
-              <td className="  p-4">Row 3, Cell 3</td>
-              <td className="  p-4">Row 3, Cell 4</td>
+            <tr className="flex  bg-white ">
+              <td className="p-4 pl-20 w-1/4 text-[#656565]">Bookmarks</td>
+              <td className="p-4 pl-24 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-36 p-4 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-48 p-4 w-1/4 ">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
             </tr>
-            <tr className="bg-[#FCFAFF]">
-              <td className="  p-4 ">Row 4, Cell 1</td>
-              <td className="  p-4">Row 4, Cell 2</td>
-              <td className="  p-4">Row 4, Cell 3</td>
-              <td className="  p-4">Row 4, Cell 4</td>
+            <tr className="flex  bg-[#FCFAFF] ">
+              <td className="p-4 pl-20 w-1/4 text-[#656565]">Profile views</td>
+              <td className="p-4 pl-24 w-1/4">
+                <Image src="/cross.svg" width={24} height={24} />
+              </td>
+              <td className="pl-36 p-4 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-48 p-4 w-1/4 ">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
             </tr>
-            <tr className="bg-white">
-              <td className="  p-4 ">Row 3, Cell 1</td>
-              <td className="  p-4">Row 3, Cell 2</td>
-              <td className="  p-4">Row 3, Cell 3</td>
-              <td className="  p-4">Row 3, Cell 4</td>
+            <tr className="flex  bg-white ">
+              <td className="p-4 pl-20 w-1/4 text-[#656565]">Verified badge</td>
+              <td className="p-4 pl-24 w-1/4">
+                {" "}
+                <Image src="/cross.svg" width={24} height={24} />
+              </td>
+              <td className="pl-36 p-4 w-1/4">Purple </td>
+              <td className="pl-48 p-4 w-1/4 ">Gold</td>
             </tr>
-            <tr className="bg-[#FCFAFF]">
-              <td className="  p-4 ">Row 4, Cell 1</td>
-              <td className="  p-4">Row 4, Cell 2</td>
-              <td className="  p-4">Row 4, Cell 3</td>
-              <td className="  p-4">Row 4, Cell 4</td>
+            <tr className="flex  bg-[#FCFAFF] ">
+              <td className="p-4 pl-20 w-1/4 text-[#656565]">Latest offers</td>
+              <td className="p-4 pl-24 w-1/4">
+                {" "}
+                <Image src="/cross.svg" width={24} height={24} />
+              </td>
+              <td className="pl-36 p-4 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-48 p-4 w-1/4 ">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
             </tr>
-            <tr className="bg-white">
-              <td className="  p-4 ">Row 3, Cell 1</td>
-              <td className="  p-4">Row 3, Cell 2</td>
-              <td className="  p-4">Row 3, Cell 3</td>
-              <td className="  p-4">Row 3, Cell 4</td>
+            <tr className="flex  bg-white ">
+              <td className="p-4 pl-20 w-1/4 text-[#656565]">
+                Accept & sell appointment
+              </td>
+              <td className="p-4 pl-24 w-1/4">
+                {" "}
+                <Image src="/cross.svg" width={24} height={24} />
+              </td>
+              <td className="pl-36 p-4 w-1/4">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
+              <td className="pl-48 p-4 w-1/4 ">
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
             </tr>
-            <tr className="bg-[#FCFAFF]">
-              <td className="  p-4 ">Row 4, Cell 1</td>
-              <td className="  p-4">Row 4, Cell 2</td>
-              <td className="  p-4">Row 4, Cell 3</td>
-              <td className="  p-4">Row 4, Cell 4</td>
-            </tr>
-            <tr className="bg-white">
-              <td className="  p-4 ">Row 3, Cell 1</td>
-              <td className="  p-4">Row 3, Cell 2</td>
-              <td className="  p-4">Row 3, Cell 3</td>
-              <td className="  p-4">Row 3, Cell 4</td>
-            </tr>
-            <tr className="bg-[#FCFAFF]">
-              <td className="  p-4 ">Row 4, Cell 1</td>
-              <td className="  p-4">Row 4, Cell 2</td>
-              <td className="  p-4">Row 4, Cell 3</td>
-              <td className="  p-4">Row 4, Cell 4</td>
+            <tr className="flex  bg-[#FCFAFF] ">
+              <td className="p-4 pl-20 w-1/4 text-[#656565]">24/7 support</td>
+              <td className="p-4 pl-24 w-1/4">
+                {" "}
+                <Image src="/cross.svg" width={24} height={24} />
+              </td>
+              <td className="pl-36 p-4 w-1/4">
+                <Image src="/cross.svg" width={24} height={24} />
+              </td>
+              <td className="pl-48 p-4 w-1/4 ">
+                {" "}
+                <Image src="/table_tick.svg" width={32} height={32} />
+              </td>
             </tr>
           </tbody>
         </table>
@@ -417,4 +516,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

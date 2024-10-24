@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const page = () => {
+const Page = () => {
   return (
     <div className=" flex flex-col space-y-4 font-circular text-black justify-center">
       <div className="flex flex-col space-y-2 text-start w-[400px] self-center">
@@ -72,4 +72,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
