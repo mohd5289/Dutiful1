@@ -18,7 +18,7 @@ const Page = () => {
           <input
             type="text"
             id="email"
-            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] "
+            className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[250px] lg:w-[400px] "
           />
         </div>
 
@@ -34,7 +34,7 @@ const Page = () => {
             <input
               type="text"
               id="password"
-              className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] "
+              className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[250px] lg:w-[400px] "
             />
             <Image
               src="/show.svg" // Replace with your image path
@@ -52,10 +52,10 @@ const Page = () => {
         </div>
 
         <div className="flex flex-col gap-2 mb-20">
-          <button className="bg-[#603F8B]  border-2 text-white border-solid  font-semibold py-4 px-4 rounded-md min-w-[400px]">
+          <button className="bg-[#603F8B]  border-2 text-white border-solid  font-semibold py-4 px-4 rounded-md w-[250px] lg:w-[400px]">
             Sign Up
           </button>
-          <p className="text-[#696F79] self-center text-sm">
+          <p className="text-[#696F79] self-center text-xs md:text:sm">
             {" "}
             Don&apos;t have an account?{" "}
             <Link href="/">

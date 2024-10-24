@@ -35,7 +35,7 @@ const Page = () => {
 
         <div className="flex flex-col gap-2 mb-20">
           <Link href="/reset-password">
-            <button className="bg-[#603F8B]  border-2 text-white border-solid  font-semibold py-4 px-4 rounded-md min-w-[400px]">
+            <button className="bg-[#603F8B]  border-2 text-white border-solid  font-semibold py-4 px-4 rounded-md w-[250px] lg:w-[400px]">
               Confirm OTP
             </button>
           </Link>

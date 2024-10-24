@@ -22,7 +22,7 @@ const Page = () => {
             <input
               type="text"
               id="email"
-              className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[400px] "
+              className="border-2 border-[#E7EAF1] bg-[#F8FAFD] rounded-md py-4 px-4 w-[250px] lg:w-[400px] "
             />
             <Image
               src="/message.svg" // Replace with your image path
@@ -36,7 +36,7 @@ const Page = () => {
 
         <div className="flex flex-col gap-2 mb-20">
           <Link href="/send-email">
-            <button className="bg-[#603F8B]  border-2 text-white border-solid  font-semibold py-4 px-4 rounded-md min-w-[400px]">
+            <button className="bg-[#603F8B]  border-2 text-white border-solid  font-semibold py-4 px-4 rounded-md w-[250px] lg:w-[400px]">
               Send email
             </button>
           </Link>
