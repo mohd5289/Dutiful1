@@ -11,7 +11,7 @@ const Page = () => {
         height={268}
         className="w-full pb-2"
       />
-      <div className="flex justify-around bottom-0 left-0 w-full h-[300px]  -mt-[60px] ">
+      <div className="flex flex-wrap justify-around bottom-0 left-0 w-full h-[300px]  -mt-[60px] ">
         {/* Content of the overlapping div */}
         <div className=" flex flex-col items-center justify-evenly bg-white rounded-md w-[450px] h-[200px] border border-[#EEEEFF]">
           <div className=" flex justify-center items-center gap-2 w-full ">
