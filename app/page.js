@@ -156,7 +156,7 @@ export default function Home() {
               className=" border-[#603F8B] border-4"
             />
             <span className="text-[#696F79] font-medium text-sm">
-              I agree to Dutiful's{" "}
+              I agree to Dutiful&apos;s{" "}
               <span className="underline text-[#603F8B]">
                 terms and conditions
               </span>
