@@ -6,7 +6,18 @@
   --background: #ffffff;
   --foreground: #171717;
 }
-
+@font-face {
+  font-family: "Circular Std";
+  src: url("/fonts/circular-std-medium-500.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Recoleta";
+  src: url("/fonts/Recoleta-RegularDEMO.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
