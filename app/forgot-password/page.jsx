@@ -7,7 +7,7 @@ const Page = () => {
     <div className=" flex flex-col space-y-4 font-circular text-black justify-center">
       <div className="flex flex-col space-y-2 md:text-start text-center w-[400px] self-center">
         <h2 className="text-3xl font-recoleta font-bold">Forgot Password</h2>
-        <p className="text-sm text-menu-color">
+        <p className="text-xs md:text-sm text-menu-color">
           Enter your email and well send you a mail on how to reset your
           password.
         </p>
