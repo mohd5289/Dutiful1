@@ -9,7 +9,7 @@ const Page = () => {
     <div className=" flex flex-col space-y-4 font-circular text-black justify-center">
       <div className="flex flex-col items-center self-center gap-4 mb-6 mt-20">
         <div className="flex flex-col space-y-4">
-          <div className="flex flex-row gap-1 justify-between">
+          <div className="flex flex-row gap-1 justify-around md:justify-between mx-2">
             {otpValues.map((value, index) => (
               <input
                 key={index}
